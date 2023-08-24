@@ -88,7 +88,25 @@ button {
     display: block;
     text-align: center;
 }
-
+@media screen and (max-width : 600px) {
+    .search_container  {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #search_input{
+        width: 90%;
+    }
+    input, button {
+        margin-bottom: 10px;
+    }
+    .title-container img{
+        height: 40px;
+        width: 60px;
+        position: relative;
+       top: 0;
+    }
+}
 
 
 
